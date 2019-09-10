@@ -1,0 +1,597 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D6043BE923224BA3007503C9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6043BE823224BA3007503C9 /* AppDelegate.swift */; };
+		D6043BEB23224BA3007503C9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6043BEA23224BA3007503C9 /* ViewController.swift */; };
+		D6043BEE23224BA3007503C9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6043BEC23224BA3007503C9 /* Main.storyboard */; };
+		D6043BF023224BA4007503C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6043BEF23224BA4007503C9 /* Assets.xcassets */; };
+		D6043BF323224BA4007503C9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6043BF123224BA4007503C9 /* LaunchScreen.storyboard */; };
+		D6043BFE23224BA4007503C9 /* WCPopupControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6043BFD23224BA4007503C9 /* WCPopupControllerTests.swift */; };
+		D6043C0923224BA4007503C9 /* WCPopupControllerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6043C0823224BA4007503C9 /* WCPopupControllerUITests.swift */; };
+		D6043C1723224C36007503C9 /* WCPopupController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6043C1623224C36007503C9 /* WCPopupController.swift */; };
+		D607D3152326540B005B473F /* WCPopupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D607D3142326540B005B473F /* WCPopupView.swift */; };
+		D607D31723265417005B473F /* WCPopupView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D607D31623265417005B473F /* WCPopupView.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D6043BFA23224BA4007503C9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D6043BDD23224BA3007503C9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D6043BE423224BA3007503C9;
+			remoteInfo = WCPopupController;
+		};
+		D6043C0523224BA4007503C9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D6043BDD23224BA3007503C9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D6043BE423224BA3007503C9;
+			remoteInfo = WCPopupController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D6043BE523224BA3007503C9 /* WCPopupController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WCPopupController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6043BE823224BA3007503C9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D6043BEA23224BA3007503C9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D6043BED23224BA3007503C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D6043BEF23224BA4007503C9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D6043BF223224BA4007503C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D6043BF423224BA4007503C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D6043BF923224BA4007503C9 /* WCPopupControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WCPopupControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6043BFD23224BA4007503C9 /* WCPopupControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WCPopupControllerTests.swift; sourceTree = "<group>"; };
+		D6043BFF23224BA4007503C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D6043C0423224BA4007503C9 /* WCPopupControllerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WCPopupControllerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6043C0823224BA4007503C9 /* WCPopupControllerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WCPopupControllerUITests.swift; sourceTree = "<group>"; };
+		D6043C0A23224BA4007503C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D6043C1623224C36007503C9 /* WCPopupController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WCPopupController.swift; sourceTree = "<group>"; };
+		D607D3142326540B005B473F /* WCPopupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WCPopupView.swift; sourceTree = "<group>"; };
+		D607D31623265417005B473F /* WCPopupView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WCPopupView.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D6043BE223224BA3007503C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6043BF623224BA4007503C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6043C0123224BA4007503C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D6043BDC23224BA3007503C9 = {
+			isa = PBXGroup;
+			children = (
+				D6043BE723224BA3007503C9 /* WCPopupController */,
+				D6043BFC23224BA4007503C9 /* WCPopupControllerTests */,
+				D6043C0723224BA4007503C9 /* WCPopupControllerUITests */,
+				D6043BE623224BA3007503C9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D6043BE623224BA3007503C9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D6043BE523224BA3007503C9 /* WCPopupController.app */,
+				D6043BF923224BA4007503C9 /* WCPopupControllerTests.xctest */,
+				D6043C0423224BA4007503C9 /* WCPopupControllerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D6043BE723224BA3007503C9 /* WCPopupController */ = {
+			isa = PBXGroup;
+			children = (
+				D6043BE823224BA3007503C9 /* AppDelegate.swift */,
+				D6043BEA23224BA3007503C9 /* ViewController.swift */,
+				D607D3142326540B005B473F /* WCPopupView.swift */,
+				D607D31623265417005B473F /* WCPopupView.xib */,
+				D6043BEC23224BA3007503C9 /* Main.storyboard */,
+				D6043BEF23224BA4007503C9 /* Assets.xcassets */,
+				D6043BF123224BA4007503C9 /* LaunchScreen.storyboard */,
+				D6043BF423224BA4007503C9 /* Info.plist */,
+				D6043C1623224C36007503C9 /* WCPopupController.swift */,
+			);
+			path = WCPopupController;
+			sourceTree = "<group>";
+		};
+		D6043BFC23224BA4007503C9 /* WCPopupControllerTests */ = {
+			isa = PBXGroup;
+			children = (
+				D6043BFD23224BA4007503C9 /* WCPopupControllerTests.swift */,
+				D6043BFF23224BA4007503C9 /* Info.plist */,
+			);
+			path = WCPopupControllerTests;
+			sourceTree = "<group>";
+		};
+		D6043C0723224BA4007503C9 /* WCPopupControllerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D6043C0823224BA4007503C9 /* WCPopupControllerUITests.swift */,
+				D6043C0A23224BA4007503C9 /* Info.plist */,
+			);
+			path = WCPopupControllerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D6043BE423224BA3007503C9 /* WCPopupController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6043C0D23224BA4007503C9 /* Build configuration list for PBXNativeTarget "WCPopupController" */;
+			buildPhases = (
+				D6043BE123224BA3007503C9 /* Sources */,
+				D6043BE223224BA3007503C9 /* Frameworks */,
+				D6043BE323224BA3007503C9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WCPopupController;
+			productName = WCPopupController;
+			productReference = D6043BE523224BA3007503C9 /* WCPopupController.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D6043BF823224BA4007503C9 /* WCPopupControllerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6043C1023224BA4007503C9 /* Build configuration list for PBXNativeTarget "WCPopupControllerTests" */;
+			buildPhases = (
+				D6043BF523224BA4007503C9 /* Sources */,
+				D6043BF623224BA4007503C9 /* Frameworks */,
+				D6043BF723224BA4007503C9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D6043BFB23224BA4007503C9 /* PBXTargetDependency */,
+			);
+			name = WCPopupControllerTests;
+			productName = WCPopupControllerTests;
+			productReference = D6043BF923224BA4007503C9 /* WCPopupControllerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D6043C0323224BA4007503C9 /* WCPopupControllerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6043C1323224BA4007503C9 /* Build configuration list for PBXNativeTarget "WCPopupControllerUITests" */;
+			buildPhases = (
+				D6043C0023224BA4007503C9 /* Sources */,
+				D6043C0123224BA4007503C9 /* Frameworks */,
+				D6043C0223224BA4007503C9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D6043C0623224BA4007503C9 /* PBXTargetDependency */,
+			);
+			name = WCPopupControllerUITests;
+			productName = WCPopupControllerUITests;
+			productReference = D6043C0423224BA4007503C9 /* WCPopupControllerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D6043BDD23224BA3007503C9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = kx;
+				TargetAttributes = {
+					D6043BE423224BA3007503C9 = {
+						CreatedOnToolsVersion = 10.3;
+					};
+					D6043BF823224BA4007503C9 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = D6043BE423224BA3007503C9;
+					};
+					D6043C0323224BA4007503C9 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = D6043BE423224BA3007503C9;
+					};
+				};
+			};
+			buildConfigurationList = D6043BE023224BA3007503C9 /* Build configuration list for PBXProject "WCPopupController" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D6043BDC23224BA3007503C9;
+			productRefGroup = D6043BE623224BA3007503C9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D6043BE423224BA3007503C9 /* WCPopupController */,
+				D6043BF823224BA4007503C9 /* WCPopupControllerTests */,
+				D6043C0323224BA4007503C9 /* WCPopupControllerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D6043BE323224BA3007503C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6043BF323224BA4007503C9 /* LaunchScreen.storyboard in Resources */,
+				D607D31723265417005B473F /* WCPopupView.xib in Resources */,
+				D6043BF023224BA4007503C9 /* Assets.xcassets in Resources */,
+				D6043BEE23224BA3007503C9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6043BF723224BA4007503C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6043C0223224BA4007503C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D6043BE123224BA3007503C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6043BEB23224BA3007503C9 /* ViewController.swift in Sources */,
+				D607D3152326540B005B473F /* WCPopupView.swift in Sources */,
+				D6043BE923224BA3007503C9 /* AppDelegate.swift in Sources */,
+				D6043C1723224C36007503C9 /* WCPopupController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6043BF523224BA4007503C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6043BFE23224BA4007503C9 /* WCPopupControllerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6043C0023224BA4007503C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6043C0923224BA4007503C9 /* WCPopupControllerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D6043BFB23224BA4007503C9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D6043BE423224BA3007503C9 /* WCPopupController */;
+			targetProxy = D6043BFA23224BA4007503C9 /* PBXContainerItemProxy */;
+		};
+		D6043C0623224BA4007503C9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D6043BE423224BA3007503C9 /* WCPopupController */;
+			targetProxy = D6043C0523224BA4007503C9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D6043BEC23224BA3007503C9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D6043BED23224BA3007503C9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D6043BF123224BA4007503C9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D6043BF223224BA4007503C9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D6043C0B23224BA4007503C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D6043C0C23224BA4007503C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D6043C0E23224BA4007503C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WCPopupController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kaytion.WCPopupController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D6043C0F23224BA4007503C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WCPopupController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kaytion.WCPopupController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D6043C1123224BA4007503C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WCPopupControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kaytion.WCPopupControllerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WCPopupController.app/WCPopupController";
+			};
+			name = Debug;
+		};
+		D6043C1223224BA4007503C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WCPopupControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kaytion.WCPopupControllerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WCPopupController.app/WCPopupController";
+			};
+			name = Release;
+		};
+		D6043C1423224BA4007503C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WCPopupControllerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kaytion.WCPopupControllerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WCPopupController;
+			};
+			name = Debug;
+		};
+		D6043C1523224BA4007503C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WCPopupControllerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kaytion.WCPopupControllerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WCPopupController;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D6043BE023224BA3007503C9 /* Build configuration list for PBXProject "WCPopupController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6043C0B23224BA4007503C9 /* Debug */,
+				D6043C0C23224BA4007503C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6043C0D23224BA4007503C9 /* Build configuration list for PBXNativeTarget "WCPopupController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6043C0E23224BA4007503C9 /* Debug */,
+				D6043C0F23224BA4007503C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6043C1023224BA4007503C9 /* Build configuration list for PBXNativeTarget "WCPopupControllerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6043C1123224BA4007503C9 /* Debug */,
+				D6043C1223224BA4007503C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6043C1323224BA4007503C9 /* Build configuration list for PBXNativeTarget "WCPopupControllerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6043C1423224BA4007503C9 /* Debug */,
+				D6043C1523224BA4007503C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D6043BDD23224BA3007503C9 /* Project object */;
+}
