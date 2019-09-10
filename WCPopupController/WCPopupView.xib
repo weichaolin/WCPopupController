@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
     <device id="retina6_1" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
-        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
@@ -36,12 +35,11 @@
             <constraints>
                 <constraint firstItem="neI-vc-D6A" firstAttribute="top" secondItem="u2h-MO-o81" secondAttribute="bottom" constant="40" id="2A7-Uf-Rjd"/>
                 <constraint firstItem="u2h-MO-o81" firstAttribute="top" secondItem="UuY-9t-iVJ" secondAttribute="top" constant="30" id="Wuh-Fr-ui5"/>
-                <constraint firstItem="neI-vc-D6A" firstAttribute="leading" secondItem="OTa-JA-U0L" secondAttribute="leading" constant="20" id="Y7b-Xa-yAc"/>
-                <constraint firstItem="OTa-JA-U0L" firstAttribute="trailing" secondItem="neI-vc-D6A" secondAttribute="trailing" constant="20" id="bix-lY-vqz"/>
+                <constraint firstItem="neI-vc-D6A" firstAttribute="leading" secondItem="UuY-9t-iVJ" secondAttribute="leading" constant="20" id="Y7b-Xa-yAc"/>
+                <constraint firstAttribute="trailing" secondItem="neI-vc-D6A" secondAttribute="trailing" constant="20" id="bix-lY-vqz"/>
                 <constraint firstItem="u2h-MO-o81" firstAttribute="centerX" secondItem="UuY-9t-iVJ" secondAttribute="centerX" id="geV-xq-Yz5"/>
             </constraints>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
-            <viewLayoutGuide key="safeArea" id="OTa-JA-U0L"/>
             <point key="canvasLocation" x="-423.1884057971015" y="-1.3392857142857142"/>
         </view>
     </objects>
