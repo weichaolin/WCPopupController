@@ -9,7 +9,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "WCPopupController"
-  spec.version      = "1.0.0"
+  spec.version      = "1.0.2"
   spec.summary      = "WCPopupController."
   spec.description  = <<-DESC
 			Popup your custom view base zhPopupController
